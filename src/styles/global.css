@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Fonts and colors copied from the original WordPress site */
+@theme {
+  --font-sans: Arial, Helvetica, Verdana, sans-serif;
+  --font-heading: "Oswald", sans-serif;
+
+  --color-body: #585858;       /* gray paragraph text */
+  --color-study: #4634bf;      /* purple "this week" title */
+  --color-anchor: #8f6451;     /* brown Anchor House button */
+  --color-scrolltop: #428be3;  /* blue scroll-to-top circle */
+}
+
+html {
+  scroll-behavior: smooth;
+}

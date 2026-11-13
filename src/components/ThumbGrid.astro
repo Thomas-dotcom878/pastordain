@@ -1,0 +1,31 @@
+---
+import type { GridItem } from '../data/videos';
+
+interface Props {
+	items: GridItem[];
+	label: string;
+}
+const { items, label } = Astro.props;
+---
+
+<div class="mx-auto grid max-w-[1168px] grid-cols-1 gap-x-5 gap-y-7 px-4 sm:grid-cols-2 md:grid-cols-3 md:px-0">
+	{
+		items.map((item) =>
+			item === 'BLANK' ? (
+				<div class="hidden md:block" aria-hidden="true" />
+			) : (
+				<a href={item.url} class="block transition-opacity hover:opacity-85">
+					<img
+						src={item.image}
+						alt={`${label}: ${item.title}`}
+						width="800"
+						height="450"
+						loading="lazy"
+						decoding="async"
+						class="aspect-video h-auto w-full object-cover"
+					/>
+				</a>
+			),
+		)
+	}
+</div>
