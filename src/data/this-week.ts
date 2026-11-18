@@ -8,23 +8,26 @@
 
 export const thisWeek = {
   // Big purple title
-  title: '2nd Corinthians 9:6-10:17 – God’s Economy, Paul’s Critics',
+  title: '2nd Corinthians 11:1-12:10 – Paul Attacks the False Apostles',
 
   // Small line under the title
-  posted: 'Posted November 11',
+  posted: 'Posted November 18',
 
   // Where the big image links to (the YouTube video)
-  videoUrl: 'https://youtu.be/kGS6u19Ql1A',
+  videoUrl: 'https://youtu.be/TaciPJsoCRY',
 
-  // The big image (file name inside public/images/)
-  image: '/images/this-week.webp',
+  // The big image: a file inside public/images/ (e.g. '/images/this-week.webp'),
+  // or YouTube's own thumbnail: 'https://img.youtube.com/vi/VIDEO-ID/maxresdefault.jpg'
+  image: 'https://img.youtube.com/vi/TaciPJsoCRY/maxresdefault.jpg',
 
   // Centered greeting at the top of Dain's note
   greeting: 'Hey Gang,',
 
   // The main note. Each item in the list is one paragraph.
+  // Links work too: <a href="https://..." class="underline">link text</a>
   paragraphs: [
-    'This video focuses on a thing I call “God’s economy” and also on Paul’s defense against his critics. I especially think you will be stoked to learn how God blesses us with the opportunity to give out of the abundance He has already given us.',
+    'We continue with Paul’s defense of his ministry to the Church at Corinth. He points out that his only motivation to serve them was because of his love for them, as opposed to those who were actively seeking to discredit him. It is interesting that the same outward action can be motivated by very different inward intentions. We cover all of chapter 11 and the first part of chapter 12 from Paul’s second letter to the church at Corinth.',
+    'Dain mentions Jungle Jen’s video. She shows it here; scroll to the 40:49 minute mark to see scenes from it: <a href="https://youtu.be/yWbjS6gIzhQ" class="underline">https://youtu.be/yWbjS6gIzhQ</a>',
   ],
 
   // Centered sign-off (each item is its own line)

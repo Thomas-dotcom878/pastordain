@@ -50,7 +50,7 @@ import { playlists, singleVideos } from '../data/videos';
 
 			<div class="text-[20px] md:text-[24px]">
 				<p class="mb-3 px-4 text-center leading-[1.4] md:px-[57px]">{thisWeek.greeting}</p>
-				{thisWeek.paragraphs.map((p) => <p class="mb-3 leading-[1.2]">{p}</p>)}
+				{thisWeek.paragraphs.map((p) => <p class="mb-3 leading-[1.2]" set:html={p} />)}
 				<p class="mb-3 px-4 text-center leading-[1.4] md:px-[57px]">
 					{thisWeek.signoff.map((line, i) => (
 						<>
